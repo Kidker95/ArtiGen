@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtiGen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-4">ArtiGen</h1>
+        <p>Generate a random painting in the style of those famous painters</p>
+        <div class="canvas-frame">
+            <canvas id="myCanvas" width="1000" height="500"></canvas>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="btn-group" role="group">
+                    <button class="btn btn-primary" onclick="randomMalevich()">Kazimir Malevich</button>
+                    <button class="btn btn-primary" onclick="randomPollock()">Jackson Pollock</button>
+                    <button class="btn btn-primary" onclick="randomAgam()">Yaacov Agam</button>
+                    <button class="btn btn-primary" onclick="mondrian()">Piet Mondrian</button>
+                    <button class="btn btn-success" onclick="saveCanvas()">Save</button>
+                    <button class="btn btn-danger" onclick="clearCanvas()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

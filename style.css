@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('assets/backgroundPhoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h1, p {
+    color: #333; /* Adjust text color if needed */
+}
+
+.canvas-frame {
+    border: 10px solid #d1b45b;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: white; /* Ensure the background of the canvas frame is white */
+}
+
+canvas {
+    border: 1px solid;
+    background-color: white; /* Set the canvas background color to white */
+}
+
+.btn-group .btn {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent button background */
+    border: none;
+    color: white;
+}
+
+.btn-group .btn:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker on hover */
+}
